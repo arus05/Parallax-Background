@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+label,
+input{
+  font: inherit;
+}
+
+.container{
+  min-height: 100vh;
+  padding: 3em;
+}
+
+.speed-selector{
+  margin-bottom: 1em;
+}
+
+#speed-input{
+  width: 300px;
+}
+
+#speed-text{
+  font-size: 1.5rem;
+  margin-right: 1em;
+}
+
+.animate-btn{
+  background: rgb(232, 255, 210);
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1em;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+.animate-btn:hover{
+  background: rgb(167, 221, 117);
+}
+
+#canvas{
+  height: 700px;
+  width: 800px;
+  border: 1px solid black;
+}
