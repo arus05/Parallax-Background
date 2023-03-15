@@ -38,10 +38,11 @@ input{
   border: none;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
-  margin-bottom: 1em;
   cursor: pointer;
   color: black;
   font-weight: bold;
+  display: block;
+  margin: 0 auto 1em;
 }
 
 .animate-btn:hover{

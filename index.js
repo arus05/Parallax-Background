@@ -83,4 +83,4 @@ function stop(){
   animationFrame = cancelAnimationFrame(animationFrame);
 }
 
- //animate();
+ animate();
